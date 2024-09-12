@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{DEB16732-66D8-4148-91DA-75F7E84C636A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enteties", "Server\Enteties\Enteties.csproj", "{FCCED527-7AF8-4700-BCB2-0A01E8E880EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryContacts", "Server\RepositoryContacts\RepositoryContacts.csproj", "{EADDCDF4-1EAB-4C2C-BC7E-836625B58C2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemoryRepositories", "Server\InMemoryRepositories\InMemoryRepositories.csproj", "{772F4521-E89A-4BF9-AC65-39198EACEF18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCCED527-7AF8-4700-BCB2-0A01E8E880EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCCED527-7AF8-4700-BCB2-0A01E8E880EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCCED527-7AF8-4700-BCB2-0A01E8E880EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCCED527-7AF8-4700-BCB2-0A01E8E880EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EADDCDF4-1EAB-4C2C-BC7E-836625B58C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EADDCDF4-1EAB-4C2C-BC7E-836625B58C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EADDCDF4-1EAB-4C2C-BC7E-836625B58C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EADDCDF4-1EAB-4C2C-BC7E-836625B58C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{772F4521-E89A-4BF9-AC65-39198EACEF18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{772F4521-E89A-4BF9-AC65-39198EACEF18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{772F4521-E89A-4BF9-AC65-39198EACEF18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{772F4521-E89A-4BF9-AC65-39198EACEF18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FCCED527-7AF8-4700-BCB2-0A01E8E880EA} = {DEB16732-66D8-4148-91DA-75F7E84C636A}
+		{EADDCDF4-1EAB-4C2C-BC7E-836625B58C2D} = {DEB16732-66D8-4148-91DA-75F7E84C636A}
+		{772F4521-E89A-4BF9-AC65-39198EACEF18} = {DEB16732-66D8-4148-91DA-75F7E84C636A}
+	EndGlobalSection
+EndGlobal
